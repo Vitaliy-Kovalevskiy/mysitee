@@ -1,0 +1,162 @@
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  text-align: center;}
+
+  body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: #191919;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: #1a1a1a;
+}
+.heading{
+  color: #fff;
+  font-size: 60px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.home-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  opacity: 0.2;
+}
+.heading2{
+  color:rgb(148, 178, 178);
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+/* skills */
+.skill-section{
+  position: relative;
+  margin: 100px 0;
+}
+
+.heading3{
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.skills-container{
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  color: #fff;
+}
+
+.skill-card{
+  position: relative;
+}
+
+.skill-img{
+  display: block;
+  margin: auto;
+  height: 200px;
+}
+
+.skill-name{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 30px 0 20px;
+}
+
+.skill-info{
+  text-align: center;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.skill-level{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50%;
+  border: 10px solid;
+}
+
+.card{
+  width: 45%;
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  display: block;
+  margin: -80px 0;
+  position: relative;
+  background: rgb(53, 32, 32);
+}
+
+.card:nth-child(even){
+  margin-left: auto;
+}
+
+.card-title{
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.about{
+  width: 100%;
+
+}
+
+.about-img-container{
+  position: relative;
+}
+
+.about-info{
+  color: #fff;
+  opacity: 0.6;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.about-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(207,232,220);
+  padding: 1em;
+  float:left;
+  margin: 20px 20px 20px 20px;
+}
