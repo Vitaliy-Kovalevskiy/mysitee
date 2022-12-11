@@ -11,6 +11,10 @@
     font-family: sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
 main {
   padding-bottom: 100px;
 }
