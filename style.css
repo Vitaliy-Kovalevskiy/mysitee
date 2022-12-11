@@ -11,6 +11,18 @@
     font-family: sans-serif;
 }
 
+main {
+  padding-bottom: 100px;
+}
+footer {
+  margin-top: -100px;
+  height: 100px;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
 .navbar{
     width: 100%;
     top: 0;
